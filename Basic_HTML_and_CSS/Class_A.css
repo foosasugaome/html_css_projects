@@ -1,0 +1,32 @@
+.font_1 {
+    background-color: black;
+    color: yellow;
+    font-size: large;
+}
+.font_2 {
+    background-color: darkblue;
+    color: white;
+    font-size: medium;
+}
+.My_Style  {
+    background-color: antiquewhite;
+    color: brown;
+    text-decoration: dotted;
+    font-weight: 100;
+    font-size: small;
+}
+/* h1 {
+    background-color: yellow;            
+} */
+p {
+    color: blue;
+}
+
+body {
+    font-style: italic;
+    text-align: center;
+}
+
+.Class_A {
+    color: blue;
+}
