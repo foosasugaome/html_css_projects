@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Tags Tutorial</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1, h2, p, pre {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+  font-size: 0.9em;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+details {
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+time {
+  font-style: italic;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <h1>HTML Tags </h1>
+
+  <h2>The Article Tag</h2>
+  <p>The <code>&lt;article&gt;</code> tag is used to define a self-contained piece of content, which can be distributed or reused independently of the rest of the document. It can be used for blog posts, news articles, user comments, etc. The tag is typically used in combination with a heading, such as <code>&lt;h1&gt;</code>, to indicate the title of the article.</p>
+  <p>Example:</p>
+  <pre>
+    &lt;article&gt;
+      &lt;h1&gt;How to Make the Perfect Cup of Coffee&lt;/h1&gt;
+      &lt;p&gt;Content goes here...&lt;/p&gt;
+    &lt;/article&gt;
+  </pre>
+
+  <h2>The Details Tag</h2>
+  <p>The <code>&lt;details&gt;</code> tag is used to create a collapsible section of content that can be expanded or collapsed by the user. It is typically used to hide additional information until the user chooses to reveal it. The tag should contain a <code>&lt;summary&gt;</code> tag that provides a brief description of the content that is hidden.</p>
+  <p>Example:</p>
+  <pre>
+    &lt;details&gt;
+      &lt;summary&gt;Click to reveal more information&lt;/summary&gt;
+      &lt;p&gt;Additional content goes here...&lt;/p&gt;
+    &lt;/details&gt;
+  </pre>
+
+  <h2>The Summary Tag</h2>
+  <p>The <code>&lt;summary&gt;</code> tag is used to provide a brief summary or description of the content contained within a <code>&lt;details&gt;</code> tag. It should be used in combination with the <code>&lt;details&gt;</code> tag to create a collapsible section of content.</p>
+  <p>Example:</p>
+  <pre>
+    &lt;details&gt;
+      &lt;summary&gt;Click to reveal more information&lt;/summary&gt;
+      &lt;p&gt;Additional content goes here...&lt;/p&gt;
+    &lt;/details&gt;
+  </pre>
+
+  <h2>The Time Tag</h2>
+  <p>The <code>&lt;time&gt;</code> tag is used to represent a specific time or date within a document. It can be used to markup dates, times, and durations in a machine-readable format. The <code>datetime</code> attribute is used to specify the date and time represented by the <code>&lt;time&gt;</code> tag in the ISO 8601 format.</p>
+  <p>Example:</p>
+  <pre>
+    &lt;p&gt;The concert starts at &lt;time datetime="2023-04-15T20:00"&gt;8:00pm on April 15th, 2023&lt;/time&gt;.&lt;/p&gt;
+  </pre>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        font-size: 3em;
+        margin: 30px 0;
+      }
+      p {
+        color: #777;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin: 20px 0;
+      }
+      a {
+        color: #008080;
+        text-decoration: none;
+      }
+      .nav {
+        margin: 0 auto;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .nav a {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="#home" id="home">Home</a>
+      <a href="#gallery">Gallery</a>
+    </div>    
+    <div id="about">
+      <h1>Welcome!</h1>
+      <p><em>This is a simple welcome page.</em></p>      
+      <p>
+        <a href="HTML_Tags.html" target="_blank"> HTML Tags</a>
+      </p>
+    </div>
+    <section>        
+        <div id="gallery">
+            <h1>Gallery</h1>
+            <!-- Photo container 1 -->
+            <div>
+                <img src="pebble-beach.jpg" alt="a beautiful beach" />
+                <div>
+                    <p>A beautiful beach</p>
+                </div>                    
+            </div>
+            <!-- Photo container 2 -->
+            <div>
+                <img src="tasman-glacier-lake-royalty-free-image-1623252368.jpg" alt="a breathtaking mountain landscape" />
+                <div>
+                    <p>A breathtaking mountain landscape</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>

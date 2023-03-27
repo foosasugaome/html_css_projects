@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            form {
+                margin: 20px;
+                border: 1px solid #ddd;
+                padding: 20px
+            }
+
+            label {
+                display: block;
+                margin-bottom: 10px;
+                font-weight: bold;
+                color: #444;
+            }
+
+            input[type=text], input[type=email], input[type=password] {
+                width: 240px;
+                margin-bottom: 20px;
+                padding: 10px 15px;
+                border: 1px solid #ddd;
+                border-radius: 3px;
+                font-size: 16px;
+                color: #555;
+            }
+
+            input[type=submit] {
+                background-color: #4285f4;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 3px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #357ae8;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
