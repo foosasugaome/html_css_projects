@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Photography</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<header>
+		<h1>Travel Photography</h1>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#photos">Photos</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home">
+			<h2>Welcome to Travel Photography</h2>
+			<p>Discover the world through the lens of our photographers. Browse through our stunning collection of travel photos and get inspired for your next adventure.</p>
+		</section>
+
+		<section id="photos">
+			<h2>Travel Photos</h2>
+            <div class="image-container">
+                <img src="bora-bora-g556e8e079_640.jpg" alt="Travel Photo">
+                <img src="bora-bora-g60ce60231_640.jpg" alt="Travel Photo">
+                <img src="hd-wallpaper-ga369160e4_640.jpg" alt="Travel Photo">
+            </div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+
+		<section>
+			<h2>Video</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/watch?v=3Ay4Sk7NRCY" title="Travel Video" frameborder="0" allowfullscreen></iframe>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Travel Photography. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
